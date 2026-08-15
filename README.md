@@ -2,7 +2,19 @@
 
 N8N es una plataforma de **automatización de workflows** que permite conectar diferentes sistemas, procesar información y ejecutar tareas automáticamente.
 
-Un **workflow** es una secuencia de pasos que se ejecutan cuando ocurre un evento. Cada paso está representado por un **nodo**, que puede recibir, procesar o enviar información a otros sistemas.
+Un **workflow** es una secuencia de pasos que se ejecutan cuando ocurre un evento. Cada paso está representado por un **nodo**, que puede recibir, procesar o enviar información a otros sistemas. 
+
+Brevemente Workflow = Cadena de Nodos Conenectados
+
+Tipos de Nodos:
+
+- Entrada: Recepción de datos
+
+- Procesamiento: Transformación/Análisis
+
+- Salida: Envío a servicios externos
+
+Vamos a poner un ejemplo de ciberseguridad para saber como actúa o como es el proceso
 
 Ejemplo:
 
@@ -16,7 +28,7 @@ Ejemplo:
 ↓  
 🚨 Generar alerta
 
-## ¿Para qué sirve en Ciberseguridad?
+## Utilidad en Ciberseguridad
 
 La automatización permite reducir tareas repetitivas que normalmente realizaría un analista, como:
 
