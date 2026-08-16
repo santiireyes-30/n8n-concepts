@@ -23,18 +23,25 @@ Por ejemplo:
 
  Alerta del SIEM
        ↓
+   
    Webhook
        ↓
+
 Extraer IP sospechosa
        ↓
+
 HTTP Request
        ↓
+
    AbuseIPDB
        ↓
+   
       IF
    ↙       ↘
+
 Maliciosa  Normal
    ↓          ↓
+
 Alerta     Registrar
 
 ## Para AWS / Cloud Security
@@ -55,18 +62,25 @@ En mi caso estoy desarrollando un proyecto de Secure Baselines me corresponderí
 
 Schedule Trigger
        ↓
+
 HTTP Request
        ↓
+
 Obtener estado del equipo
        ↓
+
 Code / Edit Fields
        ↓
-IF
+
+      IF
    ↙       ↘
+
 Cumple    No cumple
    ↓          ↓
+
 Registrar   Remediar
               ↓
+
         Verificar nuevamente
 
 Luego conectarlo con AWS, o un SIEM, EDR, sistemas de tickets, etc.
