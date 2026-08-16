@@ -55,6 +55,7 @@ n8n dispone de credenciales y nodos para varios servicios AWS, incluyendo IAM, S
 
 En mi caso estoy desarrollando un proyecto de Secure Baselines me correspondería verificar líneas de base seguras en múltiples equipos, para ello mi esquema de nodos será:
 
+```text
 Schedule Trigger
        ↓
 
@@ -77,5 +78,6 @@ Registrar   Remediar
               ↓
 
         Verificar nuevamente
+```
 
 Luego conectarlo con AWS, o un SIEM, EDR, sistemas de tickets, etc.
