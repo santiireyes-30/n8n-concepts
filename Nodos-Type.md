@@ -21,21 +21,23 @@ Webhook → HTTP Request → IF/Switch → Code → alerta
 
 Por ejemplo:
 
-🚨 Alerta del SIEM
-       ↓
-   Webhook
-       ↓
-Extraer IP sospechosa
-       ↓
- HTTP Request
-       ↓
-  AbuseIPDB
-       ↓
-      IF
-   ↙       ↘
-Maliciosa  Normal
-   ↓          ↓
-🚨 Alerta    📝 Registrar
+```text
+    🚨 Alerta del SIEM
+           ↓
+       Webhook
+           ↓
+    Extraer IP sospechosa
+           ↓
+     HTTP Request
+           ↓
+      AbuseIPDB
+           ↓
+          IF
+       ↙       ↘
+    Maliciosa  Normal
+       ↓          ↓
+    🚨 Alerta   📝 Registrar
+```
 
 ## Para AWS / Cloud Security
 
